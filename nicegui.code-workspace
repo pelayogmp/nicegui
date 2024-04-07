@@ -32,7 +32,9 @@
         "type": "python",
         "request": "launch",
         "program": "${file}",
-        "console": "integratedTerminal"
+        "console": "integratedTerminal",
+        "cwd": "${fileDirname}",
+        "purpose": ["debug-in-terminal"]
       },
       {
         "name": "Dockerized NiceGUI",
